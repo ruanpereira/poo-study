@@ -42,7 +42,7 @@ class Professor(Funcionario):
     def __init__(self, nome='', salario=0, nomeDoCurso=''):
         self.nome = nome
         self.salario = salario
-        self.nomeDoCurso = nomeDoCurso
+        self.cursolec = nomeDoCurso
         self.id = Professor.__baseId    ##repetir para os outros
         Professor.__baseId += 1
 
